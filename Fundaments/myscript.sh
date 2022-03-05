@@ -2,53 +2,53 @@
 # Script follows here:
 
 # ECHO COMMAND
-# echo Hello World!
+echo Hello World!
 
 # VARIABLES
 # Uppercase by convention
 # Letters, numbers, underscores
-NAME="Bob"
-# echo "My name is $NAME"
-# echo "My name is ${NAME}"
+NAME="Vijaykumar S Biradar"
+echo "My name is $NAME"
+echo "My name is ${NAME}"
 
 # USER INPUT
-# read -p "Enter your name: " NAME
-# echo "Hello $NAME, nice to meet you!"
+read -p "Enter your name: " NAME
+echo "Hello $NAME, nice to meet you!"
 
 # SIMPLE IF STATEMENT
-# if [ "$NAME" == "Brad" ]
-# then
-#   echo "Your name is Brad"
+if [ "$NAME" == "Vijaykumar S Biradar" ]
+then
+echo "Your name is Vijaykumar S Biradar"
 # fi
 
 # IF-ELSE
-# if [ "$NAME" == "Brad" ]
+# if [ "$NAME" == "Vijaykumar S Biradar" ]
 # then
-#   echo "Your name is Brad"
+#   echo "Your name is Vijaykumar S Biradar"
 # else 
-#   echo "Your name is NOT Brad"
+#   echo "Your name is NOT Vijaykumar S Biradar"
 # fi
 
 # ELSE-IF (elif)
-# if [ "$NAME" == "Brad" ]
+# if [ "$NAME" == "Vijaykumar S Biradar" ]
 # then
-#   echo "Your name is Brad"
-# elif [ "$NAME" == "Jack" ]
+#   echo "Your name is Vijaykumar S Biradar"
+# elif [ "$NAME" == "Amitkumar S Biradar" ]
 # then  
-#   echo "Your name is Jack"
+#   echo "Your name is Amitkumar S Biradar"
 # else 
-#   echo "Your name is NOT Brad or Jack"
+#   echo "Your name is NOT Amitkumar S Biradar or Vijaykumar S Biradar"
 # fi
 
 # COMPARISON
-# NUM1=31
-# NUM2=5
-# if [ "$NUM1" -gt "$NUM2" ]
-# then
-#   echo "$NUM1 is greater than $NUM2"
-# else
-#   echo "$NUM1 is less than $NUM2"
-# fi
+NUM1=31
+NUM2=5
+if [ "$NUM1" -gt "$NUM2" ]
+then
+echo "$NUM1 is greater than $NUM2"
+else
+echo "$NUM1 is less than $NUM2"
+fi
 
 ########
 # val1 -eq val2 Returns true if the values are equal
@@ -60,13 +60,13 @@ NAME="Bob"
 ########
 
 # FILE CONDITIONS
-# FILE="test.txt"
-# if [ -e "$FILE" ]
-# then
-#   echo "$FILE exists"
-# else
-#   echo "$FILE does NOT exist"
-# fi
+FILE="test.txt"
+if [ -e "$FILE" ]
+then
+  echo "$FILE exists"
+else
+  echo "$FILE does NOT exist"
+fi
 
 ########
 # -d file   True if the file is a directory
