@@ -1,6 +1,5 @@
 #!/bin/bash
-# Author : Your Name
-# Copyright © Intellipaat
+# Author : Vijaykumar S Biradar
 # Script follows here:
 echo "-----------------------"
 date
