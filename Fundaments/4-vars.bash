@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author : Vijaykumar S Biradar
+# Script follows here:
 touch file1 file2
 echo -n "Enter name of file to delete: "
 read file
