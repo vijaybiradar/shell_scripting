@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #This is my first script to say Hello
-#Author: Your Name
+#Author: Vijaykumar S Biradar
 
 
 echo "Hello World!!"
