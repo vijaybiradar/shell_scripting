@@ -1,0 +1,12 @@
+Check the inode list today
+reboot the machine tomorrow
+Oop 0
+Oops 1
+
+
+Oopss 12
+Oopsss 123
+
+
+Oopssss  1234
+End

@@ -1,0 +1,42 @@
+awk -F: '{ print $1 }' /etc/passwd
+
+cat /etc/passwd | awk -F: '{ print $1 }'
+
+
+To get the line containing string "inode" in file list.txt:
+grep inode  list.txt
+
+To get the line containing "inode lis " in file list.txt:
+grep "inode lis " list.txt
+
+
+To search for the line containing "inode list" in all the files in current directory:
+grep "inode list" *
+
+
+Delete lines from 3 through 5 in file list.txt:
+sed '3,5d' list.txt
+
+Delete lines that contain "O" at the beginning of the line:
+sed '/^O/d' list.txt
+
+Translate capital C,R,O into small c,r,o:
+sed 'y/CRO/cro/' list.txt 
+
+Delete ampty lines:
+sed '/^$/d' list.txt
+
+Replace string Oop with Wee for the first occurence on a line 
+sed 's/Oop/Wee/' lsst.txt 
+
+Remove ss string for all occurences on a line:
+sed 's/ss//g' list.txt
+
+Substitute a single space for any number of spaces wherever they occur on the
+line:
+sed 's/ */ /g' list.txt
+
+Substitute underscore for any number of spaces wherever they occur on a line:
+sed 's/ */_/g' list.txt
+
+
