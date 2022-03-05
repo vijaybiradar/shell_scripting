@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author : Vijaykumar S Biradar
 # Script follows here:
-ls -al > listings
+echo hello everyone > listings
 cat listings
 echo thanks for reading1 >> listings
 cat listings
