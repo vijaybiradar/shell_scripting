@@ -1,5 +1,6 @@
 #!/bin/bash
-# Author : Vijaykumar S Biaradr
+# Author : Your Name
+# Copyright © Intellipaat
 # Script follows here:
 pwd
 ls
